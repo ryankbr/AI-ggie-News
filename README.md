@@ -1,1 +1,1 @@
-# ai-ggie-news
+# AI-ggie-news
