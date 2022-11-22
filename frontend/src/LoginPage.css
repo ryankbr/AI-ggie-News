@@ -1,4 +1,7 @@
 .mainHead{
+    height: 100vh;
+    width:100%;
+    position:static;
     background-image:url("https://today.tamu.edu/wp-content/uploads/2021/02/210205_NewRev_JKE_3.jpg");
     background-color: var(--color-background);
     background-repeat: no-repeat;
@@ -8,5 +11,5 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 92vh; 
 }
+

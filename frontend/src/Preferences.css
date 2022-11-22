@@ -1,0 +1,50 @@
+.MainFrame{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-top:60px;
+}
+.SportsSection{
+    flex-direction: row;
+}
+.Button_select{
+    width:10rem;
+    padding: 8px;
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    border:none;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    background:  var(--color-primary);
+    margin-bottom:10px;
+}
+.Button_save{
+    width:15rem;
+    padding: 15px;
+    margin: 10px;
+    margin-left: 5px;
+    margin-right: 1px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    border:none;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    background:  var(--color-secondary);
+    margin-bottom:10px;
+}
+#selected{
+    background-color: rgb(24, 177, 31);
+    color:black
+}
+#all_selected{
+    background-color: rgb(51, 108, 222);
+    color: black;
+}
+
